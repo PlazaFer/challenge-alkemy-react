@@ -5,8 +5,6 @@ import { SearchProvider } from "./context/searchContext/SearchProvider";
 
 import "./index.css";
 import "./sass/custom.css";
-// import "bootstrap";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 
