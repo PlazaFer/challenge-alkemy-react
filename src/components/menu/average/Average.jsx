@@ -7,6 +7,7 @@ export const Average = ({ average }) => {
     const { price, time, healt } = average;
 
     const priceRounded = price?.toFixed(2);
+    const healtRounded = healt?.toFixed(2);
     
     return (
       <div className="container-fluid mb-5">
@@ -34,7 +35,7 @@ export const Average = ({ average }) => {
             <AverageStats 
               name="HEALT SCORE"
               icon="bi bi-bandaid"
-              stat={healt}
+              stat={healtRounded}
             />
             </div>
           </div>
